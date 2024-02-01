@@ -2,8 +2,8 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f2f5;
-    color: #333;
+    background-color: #f0f2f5; /* Light background */
+    color: #222; /* Darker text */
 }
 
 .container {
@@ -13,7 +13,88 @@ body {
 }
 
 .hero {
-    background-color: #81c784; /* Lighter green background */
-    color: #fff;
+    background-color: #81c784; /* Forest green */
+    color: #fff; /* White text */
     text-align: center;
     padding: 100px 0;
+}
+
+.profile-pic {
+    border-radius: 50%; /* Round profile picture */
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    font-weight: 400; /* Adjust font weight for a more modern look */
+    margin-bottom: 10px;
+}
+
+.cta {
+    margin-top: 30px;
+}
+
+.btn {
+    background-color: #43a047; /* Darker green for buttons */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.about {
+    background-color: #e8f0e7; /* Lighter green background for sections */
+    padding: 50px 0;
+}
+
+.projects {
+    background-color: #fff; /* White background for project grid */
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.project h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.contact {
+    background-color: #f0f2f5; /* Light background for contact section */
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #222; /* Dark green for footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Add subtle green borders and hover effects for interactivity */
+.container:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background-color: #388e40; /* Darker green on hover */
+}
+
+.project:hover {
+    transform: scale(1.05); /* Subtle zoom effect on hover */
+}
+
+/* Consider adding green accent animations or subtle particle effects for a more playful and game-like touch */
+
