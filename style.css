@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f2f5;
+    color: #333;
 }
 
 .container {
@@ -12,12 +13,7 @@ body {
 }
 
 .hero {
-    background-color: #2d89bf;
+    background-color: #81c784; /* Lighter green background */
     color: #fff;
     text-align: center;
     padding: 100px 0;
-}
-
-.hero h1 {
-    font-size: 3em;
-    margin-bottom:
