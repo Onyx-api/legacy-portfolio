@@ -5,6 +5,13 @@ body {
     background-color: #f0f2f5;
     color: #333;
 }
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url('path/to/PressStart2P.woff2') format('woff2'),
+       url('path/to/PressStart2P.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .container {
     max-width: 1000px;
