@@ -2,8 +2,8 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f2f5; /* Light background */
-    color: #222; /* Darker text */
+    background-color: #f0f2f5;
+    color: #333;
 }
 
 .container {
@@ -13,19 +13,19 @@ body {
 }
 
 .hero {
-    background-color: #81c784; /* Forest green */
-    color: #fff; /* White text */
+    background-color: #81c784;
+    color: #fff;
     text-align: center;
     padding: 100px 0;
 }
 
 .profile-pic {
-    border-radius: 50%; /* Round profile picture */
+    border-radius: 50%;
     margin-bottom: 20px;
 }
 
 h1, h2, h3 {
-    font-weight: 400; /* Adjust font weight for a more modern look */
+    font-weight: 400;
     margin-bottom: 10px;
 }
 
@@ -34,7 +34,7 @@ h1, h2, h3 {
 }
 
 .btn {
-    background-color: #43a047; /* Darker green for buttons */
+    background-color: #43a047;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -45,12 +45,12 @@ h1, h2, h3 {
 }
 
 .about {
-    background-color: #e8f0e7; /* Lighter green background for sections */
+    background-color: #e8f0e7;
     padding: 50px 0;
 }
 
 .projects {
-    background-color: #fff; /* White background for project grid */
+    background-color: #fff;
 }
 
 .project-grid {
@@ -67,17 +67,41 @@ h1, h2, h3 {
 }
 
 .project h3 {
-    font-size: 18px;
-    margin-top: 10px;
+    font-family: 'Press Start 2P', cursive; /* Replace with your preferred font */
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
 }
 
-.contact {
-    background-color: #f0f2f5; /* Light background for contact section */
-    padding: 50px 0;
+.project h3 i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #333; /* Adjust color to match your theme */
+}
+
+.project p {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.project h3:hover {
+    color: #2d89bf; /* Green on hover */
 }
 
 footer {
-    background-color: #222; /* Dark green for footer */
+    background-color: #222;
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -92,9 +116,4 @@ footer {
     background-color: #388e40; /* Darker green on hover */
 }
 
-.project:hover {
-    transform: scale(1.05); /* Subtle zoom effect on hover */
-}
-
 /* Consider adding green accent animations or subtle particle effects for a more playful and game-like touch */
-
