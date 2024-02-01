@@ -67,7 +67,7 @@ h1, h2, h3 {
 }
 
 .project h3 {
-    font-family: 'Press Start 2P', cursive; /* Replace with your preferred font */
+    font-family: 'Press Start 2P'; /* Replace with your preferred font */
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
