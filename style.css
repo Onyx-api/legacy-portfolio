@@ -123,4 +123,8 @@ footer {
     background-color: #388e40; /* Darker green on hover */
 }
 
+.contact-info {
+    font: 'Press Start 2P';
+}
+
 /* Consider adding green accent animations or subtle particle effects for a more playful and game-like touch */
