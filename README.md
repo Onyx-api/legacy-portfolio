@@ -2,4 +2,4 @@
 A portfolio of me :)
 
 
-Active link: https://onyx-api.github.io/FlynnO
+Active link: https://onyx-api.github.io/
