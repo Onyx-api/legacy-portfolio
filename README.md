@@ -1,3 +1,5 @@
 # FlynnO
 A portfolio of me :)
-https://onyx-api.github.io/FlynnO/#
+
+
+Active link: https://onyx-api.github.io/FlynnO
